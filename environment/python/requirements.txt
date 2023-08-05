@@ -1,0 +1,11 @@
+notebook
+Pandas
+NumPy
+SciPy
+matplotlib
+seaborn
+scikit-learn
+statsmodels
+dbapi
+psycopg2
+openpyxl

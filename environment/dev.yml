@@ -1,0 +1,22 @@
+version: "3.5"
+
+services:
+  ai-eitca-python:
+    build:
+      context: ./python
+      target: python-base
+    container_name: ai-eitca-python
+    volumes:
+      - ..:/tester
+    working_dir: /tester
+    tty: true
+    ports:
+      - 8888:8888
+    restart: always
+    networks:
+      - eitca
+
+networks:
+  eitca:
+    driver: bridge
+
