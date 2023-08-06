@@ -10,3 +10,4 @@ dbapi
 psycopg2
 openpyxl
 tensorflow
+tensorflow_datasets
